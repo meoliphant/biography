@@ -30,7 +30,7 @@ jobs:
         # SSH address
         host: ${{ secrets.HOST }}
         # Remote dir path
-        remote: /shared/
+        remote: /shared/templates/
         # SSH User name
         user: ${{ secrets.USERNAME }}
         # Private key
