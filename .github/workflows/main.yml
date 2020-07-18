@@ -26,7 +26,7 @@ jobs:
       uses: nogsantos/ssh-scp-deploy@v1.2.1
       with:
         # Sorce dir to deploy
-        src: templates/
+        src: emmi/
         # SSH address
         host: ${{ secrets.HOST }}
         # Remote dir path
