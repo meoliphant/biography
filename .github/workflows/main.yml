@@ -26,11 +26,11 @@ jobs:
       uses: nogsantos/ssh-scp-deploy@v1.2.1
       with:
         # Sorce dir to deploy
-        src: emmi/
+        src: templates/emmi/
         # SSH address
         host: ${{ secrets.HOST }}
         # Remote dir path
-        remote: /shared/templates/
+        remote: /shared/
         # SSH User name
         user: ${{ secrets.USERNAME }}
         # Private key
